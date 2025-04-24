@@ -1,0 +1,712 @@
+<html>
+
+<head>
+    <title>Mũ bảo hiểm Royal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style/sanpham.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script/jquery-3.7.1.min.js"></script>
+    <script src="script/sanpham.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="header-top">
+            <div id="header-top-left">
+                <a href="#"><i class="fa-solid fa-truck-fast"></i> Miễn phí vẫn chuyển</a>
+                <a href="#"><i class="fa-solid fa-arrow-rotate-right"></i> 30 ngày hoàn tiền</a>
+                <a href="#"><i class="fa-solid fa-shield"></i> 100% thanh toán an toàn</a>
+            </div>
+            <div id="header-top-right">
+                <a href="#"><i class="fa-solid fa-phone"></i> 1900383838</a>
+                <a href="#">Tuyển dụng</a>
+                <a href="#">Liên hệ</a>
+            </div>
+        </div>
+        <div id="header-menu">
+            <div id="header-menu-logo">
+                <a href="index.html"><img src="img/logoRoyal.png" alt="logo"></a>
+            </div>
+            <div id="header-menu-menu">
+                <ul>
+                    <li><a href="index.html">VỀ CHÚNG TÔI</a></li>
+                    <li><a href="sanpham.html" style="color: #d4af37">SẢN PHẨM <i
+                                class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="#Section1">Mũ bảo hiểm 1/2</a></li>
+                            <li><a href="#Section2">Mũ bảo hiểm 3/4</a></li>
+                            <li><a href="#Section3">Mũ FullFace</a></li>
+                            <li><a href="#Section4">Mũ lật hàm</a></li>
+                            <li><a href="#Section5">Mũ trẻ em</a></li>
+                            <li><a href="#Section6">Mũ xe đạp</a></li>
+                            <li><a href="#Section7">Phụ kiện</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="daily.html">ĐẠI LÝ</a></li>
+                    <li><a href="trainghiem.html">VIDEO TRẢI NGHIỆM</a></li>
+                </ul>
+            </div>
+            <div id="header-menu-button">
+                <div id="header-menu-timkiem">
+                    <input id="header-menu-timkiem-text" type="text" required minlength="12" maxlength="60"
+                        placeholder="Nhập tên sản phẩm..." />
+                    <input id="header-menu-timkiem-send" type="submit" value="Tìm kiếm" />
+                </div>
+                <div id="header-menu-user">
+                    <a href="taikhoan.html"><i class="fa-solid fa-user"></i></i></a>
+                </div>
+                <div id="header-menu-giohang">
+                    <a href="giohang.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <span id="soluonggiohang">0</span>
+                </div>
+                <div id="header-menu-search">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></i></a>
+                </div>
+                <div id="header-menu-danhmuc">
+                    <a href="#"><i class="fa-solid fa-list"></i></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="header-menu-search-timkiem">
+        <input id="header-menu-timkiem-text" type="text" required minlength="12" maxlength="60"
+            placeholder="Nhập tên sản phẩm..." />
+        <input id="header-menu-timkiem-send" type="submit" value="Tìm kiếm" />
+    </div>
+    <div class="clear"></div>
+    <div id="click-danhmuc">
+        <div id="click-danhmuc-top">
+            <img src="img/logoRoyal.png" alt="">
+        </div>
+        <ul>
+            <li><a href="index.html">VỀ CHÚNG TÔI</a></li>
+            <li><a href="sanpham.html">SẢN PHẨM</i></a></li>
+            <li><a href="daily.html">ĐẠI LÝ</a></li>
+            <li><a href="trainghiem.html">VIDEO TRẢI NGHIỆM</a></li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+    <div id="content">
+        <div id="content-title">
+            <p><a href="index.html">Trang chủ</a><span class="separator"> | </span><span class="last">Sản phẩm</span>
+            </p>
+        </div>
+        <div id="banner">
+            <div id="banner-left" class="col-s-12 col-m-12 col-x-8">
+                <img src="img/bannerSanPham1.png" alt="anh">
+            </div>
+            <div id="banner-right" class="col-s-12 col-m-12 col-x-4">
+                <img src="img/bannerSanPham2.png" alt="anh">
+            </div>
+        </div>
+        <div id="danhmuc-sanpham">
+            <h3>Danh mục sản phẩm</h3>
+            <div class="danhmuc-item">
+                <a href="#Section1">
+                    <div class="danhmuc-item-anh">
+                        <img src="img/Mu12.png" alt="anh">
+                    </div>
+                    <div class="danhmuc-item-text">
+                        <h5>Mũ bảo hiểm 1/2</h5>
+                        <p>5 sản phẩm</p>
+                    </div>
+                </a>
+            </div>
+            <div class="danhmuc-item">
+                <a href="#Section2">
+                    <div class="danhmuc-item-anh">
+                        <img src="img/Mu34.png" alt="anh">
+                    </div>
+                    <div class="danhmuc-item-text">
+                        <h5>Mũ bảo hiểm 3/4</h5>
+                        <p>15 sản phẩm</p>
+                    </div>
+                </a>
+            </div>
+            <div class="danhmuc-item ">
+                <a href="#Section3">
+                    <div class="danhmuc-item-anh">
+                        <img src="img/Mufullface.png" alt="anh">
+                    </div>
+                    <div class="danhmuc-item-text">
+                        <h5>Mũ FullFace</h5>
+                        <p>5 sản phẩm</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="danhmuc-item">
+                <a href="#Section4">
+                    <div class="danhmuc-item-anh">
+                        <img src="img/Mulatham.png" alt="anh">
+                    </div>
+                    <div class="danhmuc-item-text">
+                        <h5>Mũ lật hàm</h5>
+                        <p>2 sản phẩm</p>
+                    </div>
+                </a>
+            </div>
+            <div class="danhmuc-item ">
+                <a href="#Section5">
+                    <div class="danhmuc-item-anh">
+                        <img src="img/Mutreem.png" alt="anh">
+                    </div>
+                    <div class="danhmuc-item-text">
+                        <h5>Mũ trẻ em</h5>
+                        <p>1 sản phẩm</p>
+                    </div>
+                </a>
+            </div>
+            <div class="danhmuc-item ">
+                <a href="#Section6">
+                    <div class="danhmuc-item-anh">
+                        <img src="img/Muxedap.png" alt="anh">
+                    </div>
+                    <div class="danhmuc-item-text">
+                        <h5>Mũ xe đạp</h5>
+                        <p>1 sản phẩm</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="sanpham">
+            <div class="sanpham-mu12">
+                <h1 class="sanpham-head">
+                    <b></b>
+                    <span id="Section1">MŨ 1/2</span>
+                    <b></b>
+                </h1>
+                <div class="sanpham-items">
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu12(1).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal M103</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu12(2).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal M162</h4>
+                            <p>330.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu12(3).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal M162K</h4>
+                            <p>350.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu12(4).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal M1239</h4>
+                            <p>499.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu12(5).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal M379</h4>
+                            <p>270.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div id="sanpham-mu34">
+                <h1 class="sanpham-head">
+                    <b></b>
+                    <span id="Section2">MŨ 3/4</span>
+                    <b></b>
+                </h1>
+                <div class="sanpham-items">
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu34 (1).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal B99</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu34(2).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal B98</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu34(3).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal B80</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu34 (4).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal B81</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu34 (5).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal B82</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu34 (6).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal B83</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu34 (7).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal B84</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu34 (8).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal B85</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu34 (9).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal B86</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu34 (10).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal B87</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu34 (11).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal B88</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu34 (12).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal B89</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mu34 (13).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal B90</h4>
+                            <p>300.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="sanpham-mufullface">
+                <h1 class="sanpham-head">
+                    <b></b>
+                    <span id="Section3">MŨ FULLFACE</span>
+                    <b></b>
+                </h1>
+                <div class="sanpham-items">
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mufullface (1).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal F103</h4>
+                            <p>550.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mufullface (2).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal F162</h4>
+                            <p>550.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mufullface (3).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal F162K</h4>
+                            <p>550.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mufullface (4).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal F1239</h4>
+                            <p>550.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mufullface (5).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal F379</h4>
+                            <p>550.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sanpham-mulatham">
+                <h1 class="sanpham-head">
+                    <b></b>
+                    <span id="Section4">MŨ LẬT HÀM</span>
+                    <b></b>
+                </h1>
+                <div class="sanpham-items">
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mulatham (1).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal L42</h4>
+                            <p>700.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mulatham (2).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal L43</h4>
+                            <p>700.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sanpham-mutreem">
+                <h1 class="sanpham-head">
+                    <b></b>
+                    <span id="Section5">MŨ TRẺ EM</span>
+                    <b></b>
+                </h1>
+                <div class="sanpham-items">
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Mutreem(1).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Royal Kid</h4>
+                            <p>200.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sanpham-muxedap">
+                <h1 class="sanpham-head">
+                    <b></b>
+                    <span id="Section6">MŨ XE ĐẠP</span>
+                    <b></b>
+                </h1>
+                <div class="sanpham-items">
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Muxedap(1).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Mũ Xe đạp T75</h4>
+                            <p>200.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sanpham-phukien">
+                <h1 class="sanpham-head">
+                    <b></b>
+                    <span id="Section7">PHỤ KIỆN</span>
+                    <b></b>
+                </h1>
+                <div class="sanpham-items">
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Phukien(1).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Bộ khoá cài</h4>
+                            <p>50.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Phukien(2).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Túi Royal</h4>
+                            <p>30.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item ">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Phukien(3).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Kính bảo hộ</h4>
+                            <p>100.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Phukien(4).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Kính mũ Royal X103</h4>
+                            <p>100.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Phukien(5).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Kính mũ Royal K103</h4>
+                            <p>100.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                    <div class="sanpham-item">
+                        <div class="sanpham-item-anh">
+                            <img src="img/Phukien(6).png" alt="anh">
+                        </div>
+                        <div class="sanpham-item-text">
+                            <h4>Kính mũ Royal M103</h4>
+                            <p>100.000Đ</p>
+                        </div>
+                        <div class="sanpham-item-button">
+                            <button type="button">Mua ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <div id="footer-top">
+            <div id="footer-left" class="col-s-12 col-m-4 col-x-4">
+                <span id="hethongshowroom">TẬP ĐOÀN QUỐC TẾ Á CHÂU</span><br /><br />
+
+                <span id="footer-text"><i class="fa-solid fa-building"></i> Trụ sở: Lô C7/II, đường số 2E, Khu công
+                    nghiệp, Bình Chánh, Hồ Chí Minh</span>
+
+                <hr>
+
+                <span id="footer-text"><i class="fa-solid fa-industry"></i> Nhà máy: Lô E2-3, đường số 10, KCN Hải
+                    Sơn(GĐ 3+4), Xã Đức Hoà Hạ, Huyện Đức Hoà,
+                    Tỉnh Long An</span>
+
+                <hr>
+
+                <span id="footer-text"><i class="fa-solid fa-phone"></i> Điện thoại: 1900686868</span><br />
+                <span id="footer-text"><i class="fa-solid fa-envelope"></i> Email:
+                    info@royalhelmet.com.vn</span><br /><br />
+                <a href="#"><img src="img/IconFB" alt="" /></a>
+                <a href="#"><img src="img/IconYT" alt="" /></a>
+                <a href="#"><img src="img/IconINS" alt="" /></a>
+
+
+            </div>
+            <div id="footer-mid" class="col-s-12 col-m-4 col-x-4">
+                <span id="footer-header1">HỆ THỐNG SHOWROOM</span><br /><br />
+
+                <span id="footer-header2">HỒ CHÍ MINH</span><br />
+                <span id="footer-text"><i class="fa-solid fa-location-dot"></i> Địa chỉ: 147 Đồng Đen, Phường 13, Tân
+                    Bình, Hồ Chí Minh</span><br />
+                <span id="footer-text"><i class="fa-solid fa-phone"></i> Điện thoại: 0903891868</span>
+
+                <hr>
+                <span id="footer-header2">HÀ NỘI</span><br />
+                <span id="footer-text"><i class="fa-solid fa-location-dot"></i> Địa chỉ: 466 Đ.Bưởi, Vĩnh Phú, Hoàn
+                    Kiếm, Hà Nội</span><br />
+                <span id="footer-text"><i class="fa-solid fa-phone"></i> Điện thoại: 0838386868</span>
+
+                <hr>
+                <span id="footer-header2">CÔNG TY ĐẠI DIỆN TẠI ẤN ĐỘ</span><br />
+                <span id="footer-text"><i class="fa-solid fa-user"></i> Người đại diện: RADHAKRISNAN MB</span><br />
+                <span id="footer-text"><i class="fa-solid fa-location-dot"></i> Địa chỉ: 8/304, Manisha Nagar, Mumbai
+                    Pune Road, Kalwa(W) Thane-400 605
+                    Maharashtra,
+                    INDIA.</span>
+
+            </div>
+            <div id="footer-right" class="col-s-12 col-m-4 col-x-4">
+                <span id="footer-header1">FANPAGE</span><br /><br />
+                <a href="#"><img src="img/fanpage.png" alt=""></a>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="footer-bottom">
+            <a href="#" class="col-s-12 col-x-3"><img id="footer-bottom-achau" src="img/achau.png" alt=""></a>
+            <div id="cacthuonghieu" class="col-s-12 col-x-4"><span>NHỮNG THƯƠNG HIỆU TRỰC THUỘC</span></div>
+            <a href="#" class="col-s-12 col-x-5"><img id="footer-bottom-cacthuonghieu" src="img/cacthuonghieu.png"
+                    alt=""></a>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="quick-contact">
+        <a href="#"><img src="img/facebook-contact.png" /></a><br />
+        <a href="#"><img src="img/zalo-contact.png" /></a><br />
+        <a href="#"><img src="img/phone-contact.png" /></a><br />
+    </div>
+
+
+</body>
+
+</html>

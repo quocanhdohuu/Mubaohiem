@@ -1,0 +1,207 @@
+<html>
+
+<head>
+    <title>Mũ bảo hiểm Royal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="style/taikhoan.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script/jquery-3.7.1.min.js"></script>
+    <script src="script/taikhoan.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div id="header-top">
+            <div id="header-top-left">
+                <a href="#"><i class="fa-solid fa-truck-fast"></i> Miễn phí vẫn chuyển</a>
+                <a href="#"><i class="fa-solid fa-arrow-rotate-right"></i> 30 ngày hoàn tiền</a>
+                <a href="#"><i class="fa-solid fa-shield"></i> 100% thanh toán an toàn</a>
+            </div>
+            <div id="header-top-right">
+                <a href="#"><i class="fa-solid fa-phone"></i> 1900383838</a>
+                <a href="#">Tuyển dụng</a>
+                <a href="#">Liên hệ</a>
+            </div>
+        </div>
+        <div id="header-menu">
+            <div id="header-menu-logo">
+                <a href="index.html"><img src="img/logoRoyal.png" alt="logo"></a>
+            </div>
+            <div id="header-menu-menu">
+                <ul>
+                    <li><a href="index.html">VỀ CHÚNG TÔI</a></li>
+                    <li><a href="sanpham.html">SẢN PHẨM <i class="fa-solid fa-angle-down"></i></a>
+                        <ul>
+                            <li><a href="sanpham.html#Section1">Mũ bảo hiểm 1/2</a></li>
+                            <li><a href="sanpham.html#Section2">Mũ bảo hiểm 3/4</a></li>
+                            <li><a href="sanpham.html#Section3">Mũ FullFace</a></li>
+                            <li><a href="sanpham.html#Section4">Mũ lật hàm</a></li>
+                            <li><a href="sanpham.html#Section5">Mũ trẻ em</a></li>
+                            <li><a href="sanpham.html#Section6">Mũ xe đạp</a></li>
+                            <li><a href="sanpham.html#Section7">Phụ kiện</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="daily.html">ĐẠI LÝ</a></li>
+                    <li><a href="trainghiem.html">VIDEO TRẢI NGHIỆM</a></li>
+                </ul>
+            </div>
+            <div id="header-menu-button">
+                <div id="header-menu-timkiem">
+                    <input id="header-menu-timkiem-text" type="text" required minlength="12" maxlength="60"
+                        placeholder="Nhập tên sản phẩm..." />
+                    <input id="header-menu-timkiem-send" type="submit" value="Tìm kiếm" />
+                </div>
+                <div id="header-menu-user">
+                    <a href="taikhoan.html"><i class="fa-solid fa-user"></i></i></a>
+                </div>
+                <div id="header-menu-giohang">
+                    <a href="giohang.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <span id="soluonggiohang">0</span>
+                </div>
+                <div id="header-menu-search">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i></i></a>
+                </div>
+                <div id="header-menu-danhmuc">
+                    <a href="#"><i class="fa-solid fa-list"></i></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="header-menu-search-timkiem">
+        <input id="header-menu-timkiem-text" type="text" required minlength="12" maxlength="60"
+            placeholder="Nhập tên sản phẩm..." />
+        <input id="header-menu-timkiem-send" type="submit" value="Tìm kiếm" />
+    </div>
+    <div class="clear"></div>
+    <div id="click-danhmuc">
+        <div id="click-danhmuc-top">
+            <img src="img/logoRoyal.png" alt="">
+        </div>
+        <ul>
+            <li><a href="index.html">VỀ CHÚNG TÔI</a></li>
+            <li><a href="sanpham.html">SẢN PHẨM</i></a></li>
+            <li><a href="daily.html">ĐẠI LÝ</a></li>
+            <li><a href="trainghiem.html">VIDEO TRẢI NGHIỆM</a></li>
+        </ul>
+    </div>
+    <div class="clear"></div>
+    <div id="content">
+        <div id="content-title">
+            <p><a href="index.html">Trang chủ</a><span class="separator"> | </span><span class="last">Tài khoản</span>
+            </p>
+        </div>
+        <div class="clear"></div>
+        <div id="dangnhap" class="col-s-12 col-m-6 col-x-6">
+            <h3>ĐĂNG NHẬP</h3>
+            <div id="dangnhap-input">
+                <span>Số điện thoại hoặc email*</span><br />
+                <div id="text">
+                    <input id="loginEmailOrPhone" type="text" placeholder="Nhập Số điện thoại hoặc Email" required><br />
+                    <span>Mật khẩu*</span><br />
+                    <input id="loginPassword" type="password" placeholder="Nhập mật khẩu" required><br />
+                </div>
+
+                <input type="checkbox">
+                <label >Ghi nhớ mật khẩu</label><br />
+                <button id="loginBtn" type="button" >Đăng nhập</button><br />
+                <a href="#">Quên mật khẩu?</a>
+            </div>
+        </div>
+        <div id="dangky" class="col-s-12 col-m-6 col-x-6">
+            <h3>ĐĂNG KÝ</h3>
+            <div id="dangKY-input">
+                <div id="text">
+                    <span>Số điện thoại*</span><br />
+                    <input id="registerPhone" type="text" placeholder="Nhập số điện thoại" required><br />
+                    <span>Email*</span><br />
+                    <input id="registerEmail" type="text" placeholder="Nhập Email" required><br />
+                    <span>Mật khẩu*</span><br />
+                    <input id="registerPassword" type="password" placeholder="Nhập mật khẩu" required><br />
+                </div>
+
+                <p>Thông tin cá nhân của bạn sẽ được sử dụng để tăng cường trải nghiệm sử dụng website, để quản lý truy
+                    cập vào tài khoản của bạn, và cho các mục đích cụ thể khác được mô tả trong <a href="#">chính sách
+                        riêng tư</a> của
+                    chúng tôi.</p><br />
+
+                <button type="button" id="registerBtn">Đăng ký</button><br />
+            </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <div id="footer-top">
+            <div id="footer-left" class="col-s-12 col-m-4 col-x-4">
+                <span id="hethongshowroom">TẬP ĐOÀN QUỐC TẾ Á CHÂU</span><br /><br />
+
+                <span id="footer-text"><i class="fa-solid fa-building"></i> Trụ sở: Lô C7/II, đường số 2E, Khu công
+                    nghiệp, Bình Chánh, Hồ Chí Minh</span>
+
+                <hr>
+
+                <span id="footer-text"><i class="fa-solid fa-industry"></i> Nhà máy: Lô E2-3, đường số 10, KCN Hải
+                    Sơn(GĐ 3+4), Xã Đức Hoà Hạ, Huyện Đức Hoà,
+                    Tỉnh Long An</span>
+
+                <hr>
+
+                <span id="footer-text"><i class="fa-solid fa-phone"></i> Điện thoại: 1900686868</span><br />
+                <span id="footer-text"><i class="fa-solid fa-envelope"></i> Email:
+                    info@royalhelmet.com.vn</span><br /><br />
+                <a href="#"><img src="img/IconFB" alt="" /></a>
+                <a href="#"><img src="img/IconYT" alt="" /></a>
+                <a href="#"><img src="img/IconINS" alt="" /></a>
+
+
+            </div>
+            <div id="footer-mid" class="col-s-12 col-m-4 col-x-4">
+                <span id="footer-header1">HỆ THỐNG SHOWROOM</span><br /><br />
+
+                <span id="footer-header2">HỒ CHÍ MINH</span><br />
+                <span id="footer-text"><i class="fa-solid fa-location-dot"></i> Địa chỉ: 147 Đồng Đen, Phường 13, Tân
+                    Bình, Hồ Chí Minh</span><br />
+                <span id="footer-text"><i class="fa-solid fa-phone"></i> Điện thoại: 0903891868</span>
+
+                <hr>
+                <span id="footer-header2">HÀ NỘI</span><br />
+                <span id="footer-text"><i class="fa-solid fa-location-dot"></i> Địa chỉ: 466 Đ.Bưởi, Vĩnh Phú, Hoàn
+                    Kiếm, Hà Nội</span><br />
+                <span id="footer-text"><i class="fa-solid fa-phone"></i> Điện thoại: 0838386868</span>
+
+                <hr>
+                <span id="footer-header2">CÔNG TY ĐẠI DIỆN TẠI ẤN ĐỘ</span><br />
+                <span id="footer-text"><i class="fa-solid fa-user"></i> Người đại diện: RADHAKRISNAN MB</span><br />
+                <span id="footer-text"><i class="fa-solid fa-location-dot"></i> Địa chỉ: 8/304, Manisha Nagar, Mumbai
+                    Pune Road, Kalwa(W) Thane-400 605
+                    Maharashtra,
+                    INDIA.</span>
+
+            </div>
+            <div id="footer-right" class="col-s-12 col-m-4 col-x-4">
+                <span id="footer-header1">FANPAGE</span><br /><br />
+                <a href="#"><img src="img/fanpage.png" alt=""></a>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div id="footer-bottom">
+            <a href="#" class="col-s-12 col-x-3"><img id="footer-bottom-achau" src="img/achau.png" alt=""></a>
+            <div id="cacthuonghieu" class="col-s-12 col-x-4"><span>NHỮNG THƯƠNG HIỆU TRỰC THUỘC</span></div>
+            <a href="#" class="col-s-12 col-x-5"><img id="footer-bottom-cacthuonghieu" src="img/cacthuonghieu.png"
+                    alt=""></a>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div id="quick-contact">
+        <a href="#"><img src="img/facebook-contact.png" /></a><br />
+        <a href="#"><img src="img/zalo-contact.png" /></a><br />
+        <a href="#"><img src="img/phone-contact.png" /></a><br />
+    </div>
+
+
+</body>
+
+</html>
